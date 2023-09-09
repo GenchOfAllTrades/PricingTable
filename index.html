@@ -17,18 +17,19 @@
     background-image: url(pattern.png);
     }
     #GAT {
+    display:block;
     height: 10%;
     width: 100%;
     padding: 0;
     border: none;
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     color: #f5f6f6;
     background-color: #e82f26;
+    font-size: 2vh;
     font-family: 'Chivo', sans-serif;
     font-family: 'Libre Baskerville', serif;
-    font-size: 2.5vh;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
     .pricing-container{
@@ -40,7 +41,7 @@
     }
     .pricing-plan{
       margin-top: 10vh;
-      width:300px;
+      width:50%;
       height:250px;
       background-color: #dca766;
       border-radius: 10px;
@@ -84,7 +85,7 @@
     color: #1d2a55;
    }
 
-   @media (max-width: 800px) {
+   @media (max-width: 1200px) {
       .pricing-container {
         flex-direction: column;
         height: 100%;
